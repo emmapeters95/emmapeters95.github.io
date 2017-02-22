@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>Spotify Atliss</title>
+
+	<link href="fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="main.css" rel="stylesheet" type="text/css" />
+
+<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<!--Template by @Prinzhorn: https://twitter.com/Prinzhorn"-->
+
+<body>
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
+
+
+<!--Beginning of Site-->
+	<div id="intro" data-0="opacity:1;top:3%;transform-origin:0 0;" data-300="opacity:0;top:-10%;">
+		<img class="logo" src="img/logo.png"/>
+		<img class="h2" src="img/introtext.png"/>
+		<p class="arrows">▼</p>
+	</div>
+
+	<div id="transform" data-400="top:100%;" data-900="top:40%;" data-1400="display:block;" data-1600="top:-100%;display:none;">
+		<img class="h2"src="img/exclusivecontent-10.png"/>
+	</div>
+
+
+<!--"All Around You" and Homepage visual-->
+
+	<div id="properties" data-1100="top:75%;" data-1200="top:20%;" data-2000="display:block;"data-4000="top:-130%;display:none;">
+		<img class="h3"src="img/allaroundyou.png"/>
+		<img class="iphonemedium"src="img/homepage.png"/>
+	</div>
+
+
+<!--how easy is it-->
+	<div id="easing_wrapper" data-0="display:none;" data-4500="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
+			<h2>How easy is it to use Atliss?</h2>
+			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;"><br></br>Simply open the Atliss app and <span data-6200="" data-6500="color[swing]:rgb(255,255,255);" data-7000="color:rgb(251,176,64);">hover</span> over the music markers around you</p>
+		</div>
+
+		<div class="markers" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">pop</div>
+		<div class="markers" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">classical</div>
+		<div class="markers" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">rock</div>
+		<div class="markers" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">hip-hop</div>
+		<div class="markers" data-6500="left:55%;bottom[quadratic]:100%;" data-9500="bottom:0%;">EDM</div>
+		<div class="markers" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">indie</div>
+		<div class="markers" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">country</div>
+	</div>
+
+	<!--mockup iphone images-->
+
+	<div id="transform" data-11000="top:100%;" data-11800="top:10%;" data-12000="display:block;" data-12500="top:-100%;display:none;">
+		<img class="iphonelarge"src="img/modes.png"/>
+		<p></p>
+	</div>
+
+	<div id="transform" data-12500="top:100%;" data-13000="top:8%;" data-13500="display:block;" data-14000="top:-100%;display:none;">
+		<img class="iphoneextralarge"src="img/exclusives.png"</a>
+		<p></p>
+	</div>
+
+	<div id="transform" data-14000="top:100%;" data-14500="top:10%;" data-15000="display:block;" data-16000="top:-100%;display:none;">
+		<img class="iphonelarge"src="img/ownpin.png"/>
+		<p></p>
+	</div>
+
+<!--video-->
+	<div id="download" data-14000="top[cubic]:100%;" data-19000="top:0%;">
+		<img class="h4" src="img/download.png">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/j5puObNfC6Q" frameborder="0" allowfullscreen></iframe>
+		<img class="socialmedia"src="img/socialmedia.png"/>
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+
+
+</body>
+
+</html>
